@@ -8,7 +8,7 @@ import java.util.Locale;
 public class Program {
     public static void main(String[] args) {
 
-        //Criação de um construtor para forçar o programador inicializar os valores dos atributos durante a instanciação do objto
+        //Criação de sobrecarga para dar mais opções de instanciamento
 
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
