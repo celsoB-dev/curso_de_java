@@ -15,7 +15,7 @@ public class Program {
 
         Product[] vect = new Product[n];
 
-        for(int i = 0; i < n; i++){
+        for(int i = 0; i < vect.length; i++){
             scanner.nextLine();
             String name = scanner.nextLine();
             double price = scanner.nextDouble();
