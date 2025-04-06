@@ -19,9 +19,9 @@ public class Main {
         for(int j = 0; j < n; j++){
             sum += vect[j];
         }
-        double media = sum /n;
+        double avg = sum /n;
 
-        System.out.printf("%nAverage height %.2f%n", media);
+        System.out.printf("%nAverage height %.2f%n", avg);
 
         scanner.close();
     }
