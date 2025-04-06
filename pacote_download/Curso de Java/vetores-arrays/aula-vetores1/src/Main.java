@@ -11,11 +11,11 @@ public class Main {
 
         int n = scanner.nextInt();
         double[] vect = new double[n];
-        double sum = 0;
 
         for(int i = 0; i < n; i++){
             vect[i] = scanner.nextDouble();
         }
+        double sum = 0.0;
         for(int j = 0; j < n; j++){
             sum += vect[j];
         }
