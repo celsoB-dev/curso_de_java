@@ -8,7 +8,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Quantos numeros voce vai digitar? ");
+        System.out.print("Quantos números voce vai digitar? ");
         int n = scanner.nextInt();
 
         double[] vect = new double[n];
@@ -27,7 +27,11 @@ public class Main {
             System.out.print(vect[i] + " ");
         }
 
-        System.out.println("Soma");
+        System.out.println("Soma: " + soma);
+
+        double media = soma / n;
+
+        System.out.println("Média: " + media);
 
         scanner.close();
     }
