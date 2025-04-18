@@ -24,7 +24,7 @@ public class Main {
         System.out.print("Valores: ");
 
         for(int i = 0; i < n; i++){
-            System.out.print(vect[i] + " ");
+            System.out.printf("%.1f ", vect[i]);
         }
 
         System.out.println();
