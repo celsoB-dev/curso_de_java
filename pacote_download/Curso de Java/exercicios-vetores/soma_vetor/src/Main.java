@@ -11,20 +11,20 @@ public class Main {
         System.out.print("Quantos números voce vai digitar? ");
         int n = scanner.nextInt();
 
-        double[] vect = new double[n];
+        double[] vetor = new double[n];
 
         double soma = 0;
 
         for(int i = 0; i < n; i++){
             System.out.print("Digite um número: ");
-            vect[i] = scanner.nextDouble();
-            soma += vect[i];
+            vetor[i] = scanner.nextDouble();
+            soma += vetor[i];
         }
 
         System.out.print("Valores: ");
 
         for(int i = 0; i < n; i++){
-            System.out.printf("%.1f ", vect[i]);
+            System.out.printf("%.1f ", vetor[i]);
         }
 
         System.out.println();
