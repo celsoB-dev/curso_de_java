@@ -27,11 +27,13 @@ public class Main {
             System.out.print(vect[i] + " ");
         }
 
-        System.out.println("Soma: " + soma);
+        System.out.println();
+
+        System.out.printf("Soma: %.2f%n", soma);
 
         double media = soma / n;
 
-        System.out.println("Média: " + media);
+        System.out.printf("Média: %.2f",media);
 
         scanner.close();
     }
