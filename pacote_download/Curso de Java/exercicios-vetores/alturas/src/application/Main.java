@@ -12,6 +12,7 @@ public class Main {
 
         System.out.print("Quantas pessoas serao digitadas? ");
         int n = scanner.nextInt();
+        scanner.nextLine();
 
         String[] pessoas = new String[n];
         int[] idades = new int[n];
@@ -22,7 +23,7 @@ public class Main {
         menor = 0.0;
 
         for(int i = 0; i < n; i++){
-            System.out.printf("Dados da %da pessoa:%n", i);
+            System.out.printf("Dados da %da pessoa:%n", i + 1);
 
             System.out.print("Nome: ");
             pessoas[i] = scanner.nextLine();
@@ -46,9 +47,13 @@ public class Main {
 
         media = soma / n;
 
-        System.out.printf("Altura média: %.2f%n", media);
+        System.out.printf("%nAltura média: %.2f%n", media);
 
-        System.out.printf("Pessoas com menos de 16 anos: %.2f", porcent);
+        System.out.printf("Pessoas com menos de 16 anos: %.1f%%%n", porcent);
+
+        for(int i = 0; i < menor; i++){
+            System.out.println(pessoas[i]);
+        }
 
         scanner.close();
     }
