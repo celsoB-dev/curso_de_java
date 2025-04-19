@@ -19,7 +19,7 @@ public class Main {
             vetor[i] = scanner.nextDouble();
         }
 
-        double maiorNumero = 0;
+        double maiorNumero = vetor[0];
         int posicao = 0;
 
         for(int i = 0; i < n; i++){
