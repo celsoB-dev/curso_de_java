@@ -20,12 +20,12 @@ public class Main {
         }
 
         double maiorNumero = 0;
-        int posicao = -1;
+        int posicao = 0;
 
         for(int i = 0; i < n; i++){
             if(vetor[i] > maiorNumero){
                 maiorNumero = vetor[i];
-                posicao++;
+                posicao = i;
             }
         }
 
