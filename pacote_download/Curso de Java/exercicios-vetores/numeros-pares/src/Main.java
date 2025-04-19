@@ -8,6 +8,11 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Quantos numeros voce vai digitar? ");
+        int n = scanner.nextInt();
+
+        int[] vetor = new int[n];
+
         
 
         scanner.close();
