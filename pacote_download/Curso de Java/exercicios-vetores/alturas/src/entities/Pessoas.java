@@ -6,7 +6,7 @@ public class Pessoas {
     private int idade;
     private double altura;
 
-    public Entities(String nome, int idade, double altura) {
+    public Pessoas(String nome, int idade, double altura) {
         this.nome = nome;
         this.idade = idade;
         this.altura = altura;
@@ -36,7 +36,7 @@ public class Pessoas {
         this.altura = altura;
     }
 
-    public double media(){
-        return
+    public double media(double idade){
+        return idade
     }
 }
