@@ -51,7 +51,7 @@ public class Main {
 
         System.out.printf("Pessoas com menos de 16 anos: %.1f%%%n", porcent);
 
-        for(int i = 0; i < menor; i++){
+        for(int i = 0; i < n; i++){
             if(idades[i] < 16){
                 System.out.println(pessoas[i]);
             }
