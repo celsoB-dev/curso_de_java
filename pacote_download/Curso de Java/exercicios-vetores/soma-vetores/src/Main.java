@@ -15,19 +15,21 @@ public class Main {
         int[] vetorB = new int[n];
         int[] vetorC = new int[n];
 
+        System.out.println("Digite os valores do vetor A:");
+
         for(int i = 0; i < n; i++){
-            System.out.println("Digite os valores do vetor A:");
             vetorA[i] = scanner.nextInt();
         }
 
+        System.out.println("Digite os valores do vetor B:");
+
         for(int i = 0; i < n; i++){
-            System.out.println("Digite os valores do vetor B:");
             vetorB[i] = scanner.nextInt();
         }
 
         System.out.println("Vetor resultante:");
 
-        for(int i = 0; i < n;){
+        for(int i = 0; i < n; i++){
             vetorC[i] = vetorA[i] + vetorB[i];
             System.out.println(vetorC[i]);
         }
