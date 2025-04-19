@@ -25,7 +25,12 @@ public class Main {
             vetorB[i] = scanner.nextInt();
         }
 
-        for(int i = 0; i < n;)
+        System.out.println("Vetor resultante:");
+
+        for(int i = 0; i < n;){
+            vetorC[i] = vetorA[i] + vetorB[i];
+            System.out.println(vetorC[i]);
+        }
 
         scanner.close();
     }
