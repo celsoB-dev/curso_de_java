@@ -18,7 +18,7 @@ public class Program {
         double[] media = new double[n];
 
         for(int i = 0; i < n; i++){
-            System.out.printf("Digite nome, primeira e segunda nota do %d aluno:%n", i+1);
+            System.out.printf("Digite nome, primeira e segunda nota do %do aluno:%n", i+1);
             nome[i] = scanner.nextLine();
 
             nota1[i] = scanner.nextDouble();
@@ -27,13 +27,13 @@ public class Program {
             nota2[i] = scanner.nextDouble();
             scanner.nextLine();
 
-            media[i] = nota1[i] + nota2[i] / n;
+            media[i] = (nota1[i] + nota2[i]) / 2;
         }
 
         System.out.println("Alunos aprovados:");
 
         for(int i = 0; i < n; i++){
-            if(media[i] >= 6.0){
+            if(media[i] >= 6){
                 System.out.println(nome[i]);
             }
         }
