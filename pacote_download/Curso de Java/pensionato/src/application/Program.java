@@ -28,14 +28,13 @@ public class Program {
             int room = scanner.nextInt();
             scanner.nextLine();
             vect[i] = vect[room];
-            vect[i] = new Product(name, email, room);
-        }
+            vect[i] = new Product(name, email);
 
         System.out.println("Busy rooms: \n");
 
         for(int i = 0; i < vect.length; i++){
             if(vect[i] != null){
-                System.out.printf("%d: %s, %s%n", vect[i].getRoom(), vect[i].getName(), vect[i].getEmail());
+                System.out.printf("%d: %s, %s%n", , vect[i].getName(), vect[i].getEmail());
             }
         }
 
