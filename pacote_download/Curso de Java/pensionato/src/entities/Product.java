@@ -4,12 +4,10 @@ public class Product {
 
     private String name;
     private String email;
-    private int room;
 
-    public Product(String name, String email, int room) {
+    public Product(String name, String email) {
         this.name = name;
         this.email = email;
-        this.room = room;
     }
 
     public Product() {
@@ -29,13 +27,5 @@ public class Product {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public int getRoom() {
-        return room;
-    }
-
-    public void setRoom(int room) {
-        this.room = room;
     }
 }

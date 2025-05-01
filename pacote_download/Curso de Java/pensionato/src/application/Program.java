@@ -27,6 +27,7 @@ public class Program {
             System.out.print("Room ");
             int room = scanner.nextInt();
             scanner.nextLine();
+            vect[i] = vect[room];
             vect[i] = new Product(name, email, room);
         }
 
