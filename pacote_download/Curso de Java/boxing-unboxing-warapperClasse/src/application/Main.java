@@ -20,6 +20,14 @@ public class Main {
 
         System.out.println(y);
 
+        int z = 30;
+
+        Integer obj2 = z;   //Wrapper Class
+
+        int w = obj2;
+
+        System.out.println(obj2);
+
         scanner.close();
     }
 }
