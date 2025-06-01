@@ -10,7 +10,15 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        
+        int x = 20;
+
+        Object obj = x;     //Boxing
+
+        System.out.println(obj);
+
+        int y = (int) obj;  //Unboxing
+
+        System.out.println(y);
 
         scanner.close();
     }
