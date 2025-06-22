@@ -13,15 +13,11 @@ public class Program {
 
         Scanner scanner = new Scanner(System.in);
 
-        List<Integer> ids = new ArrayList<>();
-        List<String> names = new ArrayList<>();
-        List<Double> salaries = new ArrayList<>();
+        List<Employee> employees = new ArrayList<>();
 
         System.out.print("How many employees will be registered? ");
         int number = scanner.nextInt();
         scanner.nextLine();
-
-        Employee[] employees = new Employee[number];
 
         for (int i = 0; i < number; i++){
 
@@ -37,8 +33,6 @@ public class Program {
             System.out.print("Salary: ");
             Double salary = scanner.nextDouble();
             scanner.nextLine();
-
-            employees[i] = new Employee(id, name, salary);
 
         }
 
