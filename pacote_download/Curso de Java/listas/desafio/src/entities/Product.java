@@ -1,12 +1,12 @@
 package entities;
 
-public class Employee {
+public class Product {
 
     private Integer id;
     private String name;
     private Double salary;
 
-    public Employee(Integer id, String name, Double salary) {
+    public Product(Integer id, String name, Double salary) {
         this.id = id;
         this.name = name;
         this.salary = salary;
@@ -36,7 +36,9 @@ public class Employee {
         this.salary = salary;
     }
 
-    public void increaseSalary(double percentage){
-        double result = salary * percentage + salary;
+
+    public void increaseSalary (double percentage){
+        salary += (salary * percentage);
     }
+
 }
